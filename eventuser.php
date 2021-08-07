@@ -12,7 +12,7 @@ if($con){
 }
 echo "<br>";
 
-$sql = "select * from login_info";
+$sql = "select * from eventdata";
 
 	$result = mysqli_query($con, $sql);
 
